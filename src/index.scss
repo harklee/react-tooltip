@@ -55,12 +55,12 @@
 }
 
 .__react_component_tooltip {
-  border-radius: 3px;
+  border-radius: 8px;
   display: inline-block;
   font-size: 13px;
   left: -999em;
   opacity: 0;
-  padding: 8px 21px;
+  padding: 7px 12px;
   position: fixed;
   pointer-events: none;
   transition: opacity 0.3s ease-out;
@@ -96,21 +96,21 @@
   }
   &.type-warning {
     color: #fff;
-    @include type(#F0AD4E);
+    @include type(#C5833B);
     &.border {
       @include border(#fff);
     }
   }
   &.type-error {
     color: #fff;
-    @include type(#BE6464);
+    @include type(#A62B26);
     &.border {
       @include border(#fff);
     }
   }
   &.type-info {
     color: #fff;
-    @include type(#337AB7);
+    @include type(#207DA3);
     &.border {
       @include border(#fff);
     }
